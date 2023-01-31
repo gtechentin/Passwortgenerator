@@ -14,8 +14,9 @@ public class Passwort { //Java bedingte Formatierungen
                 i++;
             }
         };
-        System.out.println("Das neue Passwort ist: " + ps); //Ausgabe auf der Console
+        System.out.println("Das generierte Passwort ist: " + ps); //Ausgabe auf der Console
     };
+    
     //randomize Funktion die eine Zahl zwischen 0 und 127 zurück gibt
     static int randomize (int x,int y) {
         Random randomNum = new Random();
